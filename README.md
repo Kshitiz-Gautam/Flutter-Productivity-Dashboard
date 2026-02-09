@@ -1,16 +1,34 @@
-# applicationself
 
-A new Flutter project.
+This project was developed using an idea and architecture guidance suggested by ChatGPT, and the implementation was completed with the assistance of an AI coding agent.
 
-## Getting Started
+The full UI and structure were coded by me, while AI was used as a productivity helper to speed up development and ensure clean architecture.
 
-This project is a starting point for a Flutter application.
+1. Learning Outcome
 
-A few resources to get you started if this is your first Flutter project:
+This project helped me learn:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+=> Riverpod state management
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+=> Clean folder structure for Flutter apps
+
+=> Managing multiple features (tasks/habits/notes)
+
+=> Widget reusability (StatsCard concept)
+
+=> Building a dashboard UI like professional apps
+
+2. Future Improvements (Planned)
+
+=> Dark Mode Support 
+
+=> Cloud Sync (Firebase)
+
+=> Task Notifications 
+
+=> Habit Streak System 
+
+=> Better calendar UI
+
+3. Author
+
+Developed by: [Kshitiz Gautam]
