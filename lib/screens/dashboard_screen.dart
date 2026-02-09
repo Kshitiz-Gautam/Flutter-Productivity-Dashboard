@@ -29,7 +29,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
       appBar: AppBar(
         title: const Text("My Productivity Dashboard"),
         centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.blue,
       ),
 
       body: SingleChildScrollView(
