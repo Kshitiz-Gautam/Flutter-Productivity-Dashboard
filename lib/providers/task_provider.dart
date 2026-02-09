@@ -13,7 +13,7 @@ final taskProvider =
 
 class TaskNotifier extends StateNotifier<Map<String, List<Task>>> {
   TaskNotifier() : super({}) {
-    load();
+    Future.microtask(() => load());
   }
 
   Future<void> load() async {
@@ -32,7 +32,7 @@ class TaskNotifier extends StateNotifier<Map<String, List<Task>>> {
 
   void toggleTask(DateTime date, int index) {
     final key = dateKey(date);
-    final tasks = (state[key] ?? []) as List<Task>;
+    final tasks = state[key] ?? [];
     final updatedTasks = [...tasks];
 
     updatedTasks[index].isDone = !updatedTasks[index].isDone;
@@ -44,7 +44,7 @@ class TaskNotifier extends StateNotifier<Map<String, List<Task>>> {
 
   void deleteTask(DateTime date, int index) {
     final key = dateKey(date);
-    final tasks = (state[key] ?? []) as List<Task>;
+    final tasks = state[key] ?? [];
     final updatedTasks = [...tasks];
 
     updatedTasks.removeAt(index);
