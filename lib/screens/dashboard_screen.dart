@@ -27,7 +27,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Productivity Dashboard"),
+        title: const Text("My Productivity Dashboard"),
         centerTitle: true,
         backgroundColor: Colors.white,
       ),
